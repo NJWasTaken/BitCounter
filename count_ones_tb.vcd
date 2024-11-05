@@ -1,0 +1,224 @@
+$date
+	Tue Nov 05 15:20:02 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module count_ones_tb $end
+$var wire 4 ! ones_count [3:0] $end
+$var reg 8 " binary_in [7:0] $end
+$scope module uut $end
+$var wire 8 # binary_in [7:0] $end
+$var wire 4 $ upper_bits [3:0] $end
+$var wire 4 % ones_count [3:0] $end
+$var wire 4 & lower_bits [3:0] $end
+$var wire 1 ' cout $end
+$scope module ra $end
+$var wire 4 ( a [3:0] $end
+$var wire 4 ) b [3:0] $end
+$var wire 1 * cin $end
+$var wire 4 + s [3:0] $end
+$var wire 1 ' cout $end
+$var wire 3 , c [2:0] $end
+$scope module f1 $end
+$var wire 1 - a $end
+$var wire 1 . b $end
+$var wire 1 * cin $end
+$var wire 1 / cout $end
+$var wire 1 0 sum $end
+$upscope $end
+$scope module f2 $end
+$var wire 1 1 a $end
+$var wire 1 2 b $end
+$var wire 1 3 cin $end
+$var wire 1 4 cout $end
+$var wire 1 5 sum $end
+$upscope $end
+$scope module f3 $end
+$var wire 1 6 a $end
+$var wire 1 7 b $end
+$var wire 1 8 cin $end
+$var wire 1 9 cout $end
+$var wire 1 : sum $end
+$upscope $end
+$scope module f4 $end
+$var wire 1 ; a $end
+$var wire 1 < b $end
+$var wire 1 = cin $end
+$var wire 1 ' cout $end
+$var wire 1 > sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+b0 ,
+b0 +
+0*
+b0 )
+b0 (
+0'
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10000
+b1000 !
+b1000 %
+b1000 +
+1>
+1=
+b100 ,
+19
+16
+17
+b100 &
+b100 (
+b100 $
+b100 )
+b11111111 "
+b11111111 #
+#20000
+1:
+b100 !
+b100 %
+b100 +
+0>
+18
+0=
+14
+b10 ,
+09
+11
+06
+12
+07
+b10 &
+b10 (
+b10 $
+b10 )
+b10101010 "
+b10101010 #
+#30000
+b10 &
+b10 (
+b10 $
+b10 )
+b11001100 "
+b11001100 #
+#40000
+b101 !
+b101 %
+b101 +
+10
+1.
+b10 &
+b10 (
+b11 $
+b11 )
+b11100110 "
+b11100110 #
+#50000
+15
+0:
+13
+08
+1/
+b1 ,
+04
+b10 !
+b10 %
+b10 +
+00
+1-
+01
+02
+b1 &
+b1 (
+b1 $
+b1 )
+b10000001 "
+b10000001 #
+#60000
+03
+0:
+0/
+08
+10
+b11 !
+b11 %
+b11 +
+15
+b0 ,
+04
+0-
+11
+b10 &
+b10 (
+b1 $
+b1 )
+b100110 "
+b100110 #
+#70000
+05
+1:
+b100 !
+b100 %
+b100 +
+00
+01
+16
+0.
+b100 &
+b100 (
+b0 $
+b0 )
+b1111 "
+b1111 #
+#80000
+18
+b10 ,
+14
+b100 !
+b100 %
+b100 +
+1:
+11
+06
+12
+b10 &
+b10 (
+b10 $
+b10 )
+b1010101 "
+b1010101 #
+#90000
