@@ -1,4 +1,4 @@
-# Binary Ones Counter Documentation
+# Binary Ones Counter
 
 ## Overview
 This Verilog implementation provides a binary ones counter that counts the number of '1' bits in an 8-bit input value. The design uses a hierarchical approach with a ripple-carry adder architecture for efficient bit counting.
